@@ -67,7 +67,7 @@ class Draw extends JPanel{
 				int anum = Trans.stoi(anumber.getText());
 				int bs = endCombo.getSelectedIndex();
 				int bnum = Trans.stoi(bnumber.getText());
-				if(anum<=0||nums<anum||bnum<=0||nums<bnum||anum+bnum>num){
+				if(anum<=0||nums<anum||bnum<=0||nums<bnum||anum+bnum>nums){
 					ans.setText("Error : 無効な数字です");
 					return;
 				}
